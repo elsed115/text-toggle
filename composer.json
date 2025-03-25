@@ -1,0 +1,33 @@
+{
+    "name": "elsed115/text-toggle",
+    "description": "A Laravel Nova Text Field with an activate/deactivate toggle",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "type": "nova-field",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elsed115\\TextToggle\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elsed115\\TextToggle\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
+
